@@ -1,214 +1,144 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>アルバム</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-  //cssファイルの設定など
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='WebデザイナーTARO YAMADA ポートフォリオ'>
+  <meta property='og:url' content='URLが入る'>
+  <meta property='og:description' content='TARO YAMADAのポートフォリオサイトです。'>
+  <meta property="og:image" content="img/ogp.png">
+  <meta name="description" content="TARO YAMADAのポートフォリオサイトです" />
+  <title>TARO YAMADA ポートフォリオ</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link href="css/ress.css" media="all" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel=”canonical” href=”URLが入る” />
 </head>
 
 <body>
-  <header>
-    <div class="collapse bg-dark" id="Navbar">
+  <div class="wrapper">
+
+    <!-- header -->
+    <header class="header ">
       <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">概要</h4>
-            <p class="text-muted">下のアルバム、著者、またはその他の背景の背景に関する情報を追加。人々はいくつかの有益なおいしさを拾うことができるように、それはいくつかの文章を長くする。その後、ソーシャルネットワーキングサイトや連絡先にリンクすること。</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">要望</h4>
-            <ul class="list-unstyled">
-              <li><a href="#" class="text-white">Twitterでフォロー</a></li>
-              <li><a href="#" class="text-white">Facebookでいいね</a></li>
-              <li><a href="#" class="text-white">メールを送信</a></li>
-            </ul>
-          </div>
+        <h1 class="header-logo">
+          <a href=".">TARO YAMADA</a>
+        </h1>
+        <nav class="gnav">
+          <ul class="gnav-list">
+            <li class="gnav-item"><a href="#works">WORKS</a></li>
+            <li class="gnav-item"><a href="#skill">SKILL</a></li>
+            <li class="gnav-item"><a href="#about">ABOUT</a></li>
+            <li class="gnav-item"><a href="#contact">CONTACT</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- /header -->
+
+    <main class="content">
+
+      <!-- mv -->
+      <div class="mv">
+        <div class="mv-container">
+          <p class="mv-title">TARO YAMADA</p>
+          <p class="mv-subtitle">PORTFOLIO</p>
+          <p class="mv-text">
+            ユーザーとお客様が心から満足できる<br class="sp-only">サイトをお作りいたします。<br>
+            デザインとコーディングは<br class="sp-only">おまかせください。<br>
+          </p>
         </div>
       </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="mr-2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
-          <strong>アルバム</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="Navbar" aria-expanded="false" aria-label="ナビゲーションの切替">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-    </div>
-  </header>
+      <!-- /mv -->
 
-  <main role="main">
-    <section class="jumbotron text-center">
-      <div class="container">
-        <h1>アルバムの実例</h1>
-        <p class="lead text-muted">短くて、その下のコレクション、そのコンテンツ、クリエイターなどを指し示すものではない。短くて甘いですが、あまりにも短くはないので、人々はそれを完全にスキップしない。</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">アクションへの主な呼びかけ</a>
-          <a href="#" class="btn btn-secondary my-2">二次的なアクション</a>
-        </p>
-      </div>
-    </section>
+      <!-- works -->
+      <section class="works section" id="works">
+        <div class="container">
+          <h2 class="title">WORKS</h2>
+          <div class="works-list">
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-sample-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive)</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design / Coding(Responsive) / WordPress</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+            <a class="works-item" href="works-template.html">
+              <div class="works-img"><img src="img/works-dummy-thumb.jpg" alt="" /></div>
+              <p class="works-name">作品名が入る</p>
+              <p class="works-info">Banner Design</p>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /works -->
 
-    <div class="album py-5 bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-              <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice"><title>カード画像のキャプション</title><rect fill="#55595c" width="100%" height="100%" /><text fill="#eceeef" dy=".3em" x="50%" y="50%">サムネイル</text></svg>
-              <div class="card-body">
-                <p class="card-text">これは、追加コンテンツへの自然な導入として以下のテキストをサポートする、より幅広いカード。このコンテンツはもう少し長くなる。</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">見る</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">編集</button>
-                  </div>
-                  <small class="text-muted">9 分前</small>
-                </div>
-              </div>
+      <!-- about -->
+      <section class="about section" id="about">
+        <div class="container">
+          <h2 class="title">ABOUT</h2>
+          <div class="profile">
+            <p class="profile-img">
+              <img src="img/profile.jpg" alt="">
+            </p>
+            <div class="profile-body">
+              <p>
+                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+              </p>
+              <p>
+                テキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入りますテキストが入ります。
+              </p>
             </div>
           </div>
         </div>
+      </section>
+      <!-- /about -->
+
+      <!-- contact -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <h2 class="title">CONTACT</h2>
+          <p class="lead">
+            お問い合わせは、<br class="sp-only">SNSかメールにてお願いいたします。
+          </p>
+          <div class="contact-list">
+            <a class="contact-item" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+            <a class="contact-item" href="https://www.instagram.com/" target="_blank" rel="noopener">Instagram</a>
+            <span class="contact-item">xxxxxx@gmail.com</span>
+          </div>
+        </div>
+      </section>
+      <!-- /contact -->
+      <div class="page-top" id="js-page-top">
+        <span class="material-icons-outlined">expand_less</span>
       </div>
-    </div><!-- /.album	-->
-  </main>
+    </main>
 
-  <footer class="text-muted">
-    <div class="container">
-      <p class="float-right">
-        <a href="#">トップに戻る</a>
-      </p>
-      <p>このアルバムの実例は &copy; Bootstrap だが、ダウンロードして自分でカスタマイズすること！</p>
-      <p>Bootstrapが初めてなら、<a href="http://getbootstrap.com/" target="_blank">ホームページ</a>にアクセスするか、<a href="../getting-started/introduction">スタートガイド</a>を読むように。</p>
-    </div>
-  </footer>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="copyright">&copy;TARO YAMADA</div>
+    </footer>
+    <!-- /footer -->
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js" integrity="sha384-Qg00WFl9r0Xr6rUqNLv1ffTSSKEFFCDCKVyHZ+sVt8KuvG99nWw5RNvbhuKgif9z" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
-  //JavaScriptプラグインの設定など
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type='text/javascript' src="js/script.js"></script>
 </body>
-
 </html>
